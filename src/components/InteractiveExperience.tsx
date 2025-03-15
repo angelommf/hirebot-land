@@ -16,11 +16,11 @@ const InteractiveExperience = () => {
     <section id="interactive-experience" className="section bg-gray-50 pattern-bg">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
-          <div className="inline-block px-3 py-1 rounded-full bg-hire-light text-hire text-sm font-medium mb-4">
+          <div className="inline-block px-3 py-1 rounded-full bg-[#0A3C5F]/10 text-[#0A3C5F] text-sm font-medium mb-4">
             Interactive Demo
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Experience the <span className="gradient-text">HireBot Difference</span>
+            Experience the <span className="text-[#0A3C5F]">MVP Difference</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
             Try our interactive demo to see firsthand how our AI-powered platform revolutionizes the hiring process.
@@ -30,7 +30,7 @@ const InteractiveExperience = () => {
             <Button 
               onClick={refreshExperience} 
               variant="outline"
-              className="border-hire text-hire hover:bg-hire-light"
+              className="border-[#0A3C5F] text-[#0A3C5F] hover:bg-[#0A3C5F]/10"
             >
               <RefreshCcw className="h-4 w-4 mr-2" />
               Refresh Demo
@@ -45,7 +45,7 @@ const InteractiveExperience = () => {
             width="100%"
             style={{ height: '700px', minHeight: '700px' }}
             frameBorder="0"
-            title="HireBot Interactive Experience"
+            title="MVP Interactive Experience"
           ></iframe>
         </div>
       </div>
