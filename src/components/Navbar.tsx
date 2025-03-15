@@ -25,8 +25,12 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex items-center">
-          <a href="/" className="text-2xl font-bold text-gray-900">
-            hire<span className="text-hire">bot</span>
+          <a href="/" className="flex items-center">
+            <img 
+              src="/lovable-uploads/8d749169-7d76-495f-b41d-30a99f36f73f.png" 
+              alt="MVP - Most Valuable People" 
+              className="h-10"
+            />
           </a>
         </div>
 

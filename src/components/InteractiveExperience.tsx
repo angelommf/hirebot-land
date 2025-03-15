@@ -1,16 +1,8 @@
 
 import React, { useRef } from 'react';
-import { Button } from '@/components/ui/button';
-import { RefreshCcw } from 'lucide-react';
 
 const InteractiveExperience = () => {
   const iframeRef = useRef<HTMLIFrameElement>(null);
-
-  const refreshExperience = () => {
-    if (iframeRef.current) {
-      iframeRef.current.src = iframeRef.current.src;
-    }
-  };
 
   return (
     <section id="interactive-experience" className="section bg-gray-50 pattern-bg">
@@ -25,17 +17,6 @@ const InteractiveExperience = () => {
           <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
             Try our interactive demo to see firsthand how our AI-powered platform revolutionizes the hiring process.
           </p>
-          
-          <div className="flex justify-center mb-8">
-            <Button 
-              onClick={refreshExperience} 
-              variant="outline"
-              className="border-[#0A3C5F] text-[#0A3C5F] hover:bg-[#0A3C5F]/10"
-            >
-              <RefreshCcw className="h-4 w-4 mr-2" />
-              Refresh Demo
-            </Button>
-          </div>
         </div>
 
         <div className="rounded-xl shadow-xl overflow-hidden bg-white transition-all duration-300">

@@ -25,9 +25,9 @@ const HiringStats = () => {
               </div>
             </div>
             
-            <blockquote className="italic text-lg md:text-xl text-gray-100 mb-6">
-              "On average, hiring a new employee costs $2,700 and takes 68 days for an offer to be accepted. But the real problem? 13% of new hires leave within the first 90 days, and 35% don't make it past their first year. The cycle keeps repeating—costing businesses time, money, and productivity. How much is inefficient hiring draining your company?"
-            </blockquote>
+            <p className="text-lg md:text-xl text-gray-100 mb-6">
+              On average, hiring a new employee costs $2,700 and takes 68 days for an offer to be accepted. But the real problem? 13% of new hires leave within the first 90 days, and 35% don't make it past their first year. The cycle keeps repeating—costing businesses time, money, and productivity. How much is inefficient hiring draining your company?
+            </p>
             
             <div className="text-right text-sm text-gray-300">
               — PwC Saratoga Workforce Index, 2022
