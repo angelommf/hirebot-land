@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="flex flex-col items-center mb-12">
           <div className="mb-8 flex flex-col md:flex-row items-center justify-center gap-4">
             <img 
-              src="/lovable-uploads/9552038d-6012-4db7-809c-adb675207fa9.png" 
+              src="/lovable-uploads/8d749169-7d76-495f-b41d-30a99f36f73f.png" 
               alt="MVP - Most Valuable People" 
               className="h-24 md:h-32"
             />
