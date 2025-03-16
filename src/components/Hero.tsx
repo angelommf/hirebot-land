@@ -2,7 +2,6 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
-import MailingListForm from './MailingListForm';
 
 const Hero = () => {
   return (
@@ -60,11 +59,6 @@ const Hero = () => {
             </div>
             <p className="text-sm font-medium">Average improvement in time-to-hire</p>
           </div>
-        </div>
-
-        {/* Mailing List Form */}
-        <div className="mt-24 opacity-0 animate-fade-up" style={{ animationDelay: '1s', animationFillMode: 'forwards' }}>
-          <MailingListForm />
         </div>
       </div>
     </section>

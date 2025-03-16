@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
-import { MenuIcon, X } from 'lucide-react';
+import { MenuIcon, X, Mail } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const Navbar = () => {
@@ -47,6 +47,10 @@ const Navbar = () => {
           </a>
           <a href="#pricing" className="text-gray-600 hover:text-hire text-sm font-medium transition-colors">
             Pricing
+          </a>
+          <a href="#mailing-list" className="flex items-center text-gray-600 hover:text-hire text-sm font-medium transition-colors">
+            <Mail className="mr-1 h-4 w-4" />
+            Subscribe
           </a>
         </nav>
 
@@ -101,6 +105,14 @@ const Navbar = () => {
               onClick={() => setMobileMenuOpen(false)}
             >
               Pricing
+            </a>
+            <a
+              href="#mailing-list"
+              className="flex items-center text-gray-600 hover:text-hire px-4 py-2 rounded-md"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              <Mail className="mr-2 h-4 w-4" />
+              Subscribe
             </a>
             <div className="flex flex-col space-y-2 pt-2 border-t">
               <Button variant="outline" className="w-full border-hire text-hire hover:bg-hire hover:text-white">
