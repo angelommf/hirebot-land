@@ -14,8 +14,11 @@ const InteractiveExperience = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Experience the <span className="text-[#0A3C5F]">MVP Difference</span>
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-4">
             Try our interactive demo to see firsthand how our AI-powered platform revolutionizes the hiring process.
+          </p>
+          <p className="text-md text-gray-700 max-w-2xl mx-auto mb-8 border-l-4 border-[#0A3C5F] pl-4 bg-[#0A3C5F]/5 py-2 rounded">
+            This is one of many tests used to assess an applicant's true qualities and skills, providing deeper insights than traditional hiring methods.
           </p>
         </div>
 
