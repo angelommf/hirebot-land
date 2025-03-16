@@ -55,7 +55,7 @@ const Hero = () => {
           
           <div className="absolute -bottom-6 left-1/2 transform -translate-x-1/2 bg-white rounded-xl shadow-lg p-4 flex items-center gap-4 w-max animate-float">
             <div className="w-10 h-10 rounded-full bg-[#0A3C5F]/10 flex items-center justify-center">
-              <span className="text-[#0A3C5F] font-bold">75%</span>
+              <span className="text-[#0A3C5F] font-bold">57%</span>
             </div>
             <p className="text-sm font-medium">Average improvement in time-to-hire</p>
           </div>

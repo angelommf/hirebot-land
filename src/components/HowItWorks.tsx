@@ -28,7 +28,7 @@ const HowItWorks = () => {
   ];
 
   const benefits = [
-    'Reduce time-to-hire by up to 75%',
+    'Reduce time-to-hire by up to 57%',
     'Increase quality-of-hire metrics',
     'Improve candidate experience',
     'Reduce recruitment costs',
