@@ -64,10 +64,10 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				hire: {
-					DEFAULT: '#0077FF',
-					dark: '#0055CC',
-					light: '#E6F0FF',
-					'super-light': '#F5F9FF'
+					DEFAULT: '#1a4973',
+					dark: '#14395c',
+					light: '#e6f0ff',
+					'super-light': '#f5f9ff'
 				}
 			},
 			borderRadius: {

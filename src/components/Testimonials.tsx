@@ -28,11 +28,11 @@ const Testimonials = () => {
     <section id="testimonials" className="section bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <div className="inline-block px-3 py-1 rounded-full bg-hire-light text-hire text-sm font-medium mb-4">
+          <div className="inline-block px-3 py-1 rounded-full bg-[#1a4973]/10 text-[#1a4973] text-sm font-medium mb-4">
             Testimonials
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Trusted by <span className="gradient-text">Industry Leaders</span>
+            Trusted by <span className="text-[#1a4973]">Industry Leaders</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             See what our customers are saying about their experience with our revolutionary hiring platform.
@@ -62,7 +62,7 @@ const Testimonials = () => {
           ))}
         </div>
 
-        <div className="mt-20 rounded-2xl bg-hire-light p-8 md:p-12 text-center opacity-0 animate-fade-up" style={{ animationDelay: '0.6s', animationFillMode: 'forwards' }}>
+        <div className="mt-20 rounded-2xl bg-[#1a4973]/10 p-8 md:p-12 text-center opacity-0 animate-fade-up" style={{ animationDelay: '0.6s', animationFillMode: 'forwards' }}>
           <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
             Join 1,000+ companies revolutionizing their hiring
           </h3>

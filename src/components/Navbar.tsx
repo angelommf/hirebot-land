@@ -36,19 +36,19 @@ const Navbar = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
-          <a href="#features" className="text-gray-600 hover:text-hire text-sm font-medium transition-colors">
+          <a href="#features" className="text-gray-600 hover:text-[#1a4973] text-sm font-medium transition-colors">
             Features
           </a>
-          <a href="#how-it-works" className="text-gray-600 hover:text-hire text-sm font-medium transition-colors">
+          <a href="#how-it-works" className="text-gray-600 hover:text-[#1a4973] text-sm font-medium transition-colors">
             How It Works
           </a>
-          <a href="#testimonials" className="text-gray-600 hover:text-hire text-sm font-medium transition-colors">
+          <a href="#testimonials" className="text-gray-600 hover:text-[#1a4973] text-sm font-medium transition-colors">
             Testimonials
           </a>
-          <a href="#pricing" className="text-gray-600 hover:text-hire text-sm font-medium transition-colors">
+          <a href="#pricing" className="text-gray-600 hover:text-[#1a4973] text-sm font-medium transition-colors">
             Pricing
           </a>
-          <a href="#mailing-list" className="flex items-center text-gray-600 hover:text-hire text-sm font-medium transition-colors">
+          <a href="#mailing-list" className="flex items-center text-gray-600 hover:text-[#1a4973] text-sm font-medium transition-colors">
             <Mail className="mr-1 h-4 w-4" />
             Subscribe
           </a>
@@ -56,10 +56,10 @@ const Navbar = () => {
 
         {/* CTA Buttons */}
         <div className="hidden md:flex items-center space-x-4">
-          <Button variant="outline" className="border-hire text-hire hover:bg-hire hover:text-white transition-colors">
+          <Button variant="outline" className="border-[#1a4973] text-[#1a4973] hover:bg-[#1a4973] hover:text-white transition-colors">
             Log In
           </Button>
-          <Button className="bg-hire hover:bg-hire-dark text-white transition-colors">
+          <Button className="bg-[#1a4973] hover:bg-[#1a4973]/80 text-white transition-colors">
             Get Started
           </Button>
         </div>
@@ -80,45 +80,45 @@ const Navbar = () => {
           <div className="flex flex-col p-4 space-y-4">
             <a
               href="#features"
-              className="text-gray-600 hover:text-hire px-4 py-2 rounded-md"
+              className="text-gray-600 hover:text-[#1a4973] px-4 py-2 rounded-md"
               onClick={() => setMobileMenuOpen(false)}
             >
               Features
             </a>
             <a
               href="#how-it-works"
-              className="text-gray-600 hover:text-hire px-4 py-2 rounded-md"
+              className="text-gray-600 hover:text-[#1a4973] px-4 py-2 rounded-md"
               onClick={() => setMobileMenuOpen(false)}
             >
               How It Works
             </a>
             <a
               href="#testimonials"
-              className="text-gray-600 hover:text-hire px-4 py-2 rounded-md"
+              className="text-gray-600 hover:text-[#1a4973] px-4 py-2 rounded-md"
               onClick={() => setMobileMenuOpen(false)}
             >
               Testimonials
             </a>
             <a
               href="#pricing"
-              className="text-gray-600 hover:text-hire px-4 py-2 rounded-md"
+              className="text-gray-600 hover:text-[#1a4973] px-4 py-2 rounded-md"
               onClick={() => setMobileMenuOpen(false)}
             >
               Pricing
             </a>
             <a
               href="#mailing-list"
-              className="flex items-center text-gray-600 hover:text-hire px-4 py-2 rounded-md"
+              className="flex items-center text-gray-600 hover:text-[#1a4973] px-4 py-2 rounded-md"
               onClick={() => setMobileMenuOpen(false)}
             >
               <Mail className="mr-2 h-4 w-4" />
               Subscribe
             </a>
             <div className="flex flex-col space-y-2 pt-2 border-t">
-              <Button variant="outline" className="w-full border-hire text-hire hover:bg-hire hover:text-white">
+              <Button variant="outline" className="w-full border-[#1a4973] text-[#1a4973] hover:bg-[#1a4973] hover:text-white">
                 Log In
               </Button>
-              <Button className="w-full bg-hire hover:bg-hire-dark text-white">
+              <Button className="w-full bg-[#1a4973] hover:bg-[#1a4973]/80 text-white">
                 Get Started
               </Button>
             </div>

@@ -16,7 +16,7 @@ const ChatBot = () => {
       {/* Chatbot Button */}
       <button
         onClick={toggleChatbot}
-        className="fixed bottom-6 right-6 z-50 bg-hire text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:bg-hire-dark"
+        className="fixed bottom-6 right-6 z-50 bg-[#1a4973] text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:bg-[#1a4973]/80"
         aria-label="Open chat assistant"
       >
         {isOpen ? (
@@ -33,7 +33,7 @@ const ChatBot = () => {
           isOpen ? 'visible' : 'hidden'
         )}
       >
-        <div className="bg-hire text-white p-4 flex items-center justify-between">
+        <div className="bg-[#1a4973] text-white p-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 rounded-full bg-green-400"></div>
             <h3 className="font-medium">MVP Assistant</h3>
@@ -50,7 +50,7 @@ const ChatBot = () => {
         <div className="bg-white h-96 p-4 overflow-y-auto">
           <div className="space-y-4">
             <div className="flex items-start gap-2">
-              <div className="bg-hire/10 rounded-lg p-3 max-w-[80%]">
+              <div className="bg-[#1a4973]/10 rounded-lg p-3 max-w-[80%]">
                 <p className="text-sm">
                   Hi there! I'm your AI hiring assistant. How can I help you with your recruitment needs today?
                 </p>
@@ -69,9 +69,9 @@ const ChatBot = () => {
             <input
               type="text"
               placeholder="Type your message..."
-              className="flex-1 border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-hire/50"
+              className="flex-1 border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#1a4973]/50"
             />
-            <Button className="bg-hire hover:bg-hire-dark text-white">
+            <Button className="bg-[#1a4973] hover:bg-[#1a4973]/80 text-white">
               Send
             </Button>
           </div>

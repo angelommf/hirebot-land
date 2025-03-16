@@ -60,7 +60,7 @@ const MailingListForm = () => {
           />
           <Button 
             type="submit" 
-            className="bg-[#0A3C5F] hover:bg-[#072A43] text-white"
+            className="bg-[#1a4973] hover:bg-[#1a4973]/80 text-white"
             disabled={isSubmitting}
           >
             {isSubmitting ? "Submitting..." : "Subscribe"}
