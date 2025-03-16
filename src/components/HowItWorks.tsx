@@ -36,14 +36,14 @@ const HowItWorks = () => {
   ];
 
   return (
-    <section id="how-it-works" className="section bg-hire-super-light clip-path-slant">
+    <section id="how-it-works" className="section bg-[#0A3C5F]/5 clip-path-slant">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <div className="inline-block px-3 py-1 rounded-full bg-hire-light text-hire text-sm font-medium mb-4">
+          <div className="inline-block px-3 py-1 rounded-full bg-[#0A3C5F]/10 text-[#0A3C5F] text-sm font-medium mb-4">
             How It Works
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            A <span className="gradient-text">Simple Process</span> for Remarkable Results
+            A <span className="text-[#0A3C5F]">Simple Process</span> for Remarkable Results
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Our streamlined approach helps you find and hire the best talent with minimal friction.
@@ -59,7 +59,7 @@ const HowItWorks = () => {
                 style={{ animationDelay: `${0.2 * index}s`, animationFillMode: 'forwards' }}
               >
                 <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center w-12 h-12 rounded-full border-2 border-hire text-hire font-bold">
+                  <div className="flex items-center justify-center w-12 h-12 rounded-full border-2 border-[#0A3C5F] text-[#0A3C5F] font-bold">
                     {step.number}
                   </div>
                 </div>
@@ -72,20 +72,20 @@ const HowItWorks = () => {
           </div>
 
           <div className="relative">
-            <div className="absolute -inset-1 bg-gradient-to-r from-hire to-blue-600 rounded-2xl blur opacity-20"></div>
+            <div className="absolute -inset-1 bg-gradient-to-r from-[#0A3C5F] to-[#1C5680] rounded-2xl blur opacity-20"></div>
             <div className="glass-card rounded-2xl p-8 relative opacity-0 animate-fade-up" style={{ animationDelay: '0.6s', animationFillMode: 'forwards' }}>
               <h3 className="text-2xl font-bold mb-6">The Results You'll See</h3>
               
               <ul className="space-y-4 mb-8">
                 {benefits.map((benefit, index) => (
                   <li key={index} className="flex items-start gap-3">
-                    <CheckCircle2 className="h-6 w-6 text-hire flex-shrink-0" />
+                    <CheckCircle2 className="h-6 w-6 text-[#0A3C5F] flex-shrink-0" />
                     <span>{benefit}</span>
                   </li>
                 ))}
               </ul>
               
-              <Button className="w-full bg-hire hover:bg-hire-dark text-white">
+              <Button className="w-full bg-[#0A3C5F] hover:bg-[#072A43] text-white">
                 Schedule a Demo
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>

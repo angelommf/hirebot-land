@@ -5,6 +5,8 @@ import { Input } from '@/components/ui/input';
 import { useToast } from '@/hooks/use-toast';
 
 const MailingListForm = () => {
+  const [name, setName] = useState('');
+  const [surname, setSurname] = useState('');
   const [email, setEmail] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
@@ -19,6 +21,8 @@ const MailingListForm = () => {
         title: "Success!",
         description: "Thank you for joining our mailing list!",
       });
+      setName('');
+      setSurname('');
       setEmail('');
       setIsSubmitting(false);
     }, 1000);
@@ -27,6 +31,24 @@ const MailingListForm = () => {
   return (
     <div className="max-w-2xl mx-auto">
       <form onSubmit={handleSubmit} className="space-y-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
+          <Input
+            type="text"
+            placeholder="First Name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            required
+            className="bg-gray-800 border-gray-700 text-white placeholder:text-gray-400"
+          />
+          <Input
+            type="text"
+            placeholder="Last Name"
+            value={surname}
+            onChange={(e) => setSurname(e.target.value)}
+            required
+            className="bg-gray-800 border-gray-700 text-white placeholder:text-gray-400"
+          />
+        </div>
         <div className="flex flex-col sm:flex-row gap-4">
           <Input
             type="email"
