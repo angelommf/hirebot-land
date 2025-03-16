@@ -60,7 +60,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            &copy; {new Date().getFullYear()} HireBot. All rights reserved.
+            &copy; {new Date().getFullYear()} MVP. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Privacy</a>

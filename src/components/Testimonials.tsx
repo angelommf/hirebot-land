@@ -5,7 +5,7 @@ import { Star } from 'lucide-react';
 const Testimonials = () => {
   const testimonials = [
     {
-      quote: "HireBot has completely transformed our recruitment process. We've reduced our time-to-hire by 70% while finding better culture fits for our team.",
+      quote: "MVP has completely transformed our recruitment process. We've reduced our time-to-hire by 70% while finding better culture fits for our team.",
       author: "Sarah Johnson",
       position: "Head of HR, TechVision Inc.",
       rating: 5
@@ -17,7 +17,7 @@ const Testimonials = () => {
       rating: 5
     },
     {
-      quote: "As a fast-growing startup, we needed to scale our team quickly without sacrificing quality. HireBot delivered beyond our expectations and saved us thousands in agency fees.",
+      quote: "As a fast-growing startup, we needed to scale our team quickly without sacrificing quality. MVP delivered beyond our expectations and saved us thousands in agency fees.",
       author: "Emma Rodriguez",
       position: "COO, FinTech Solutions",
       rating: 5
