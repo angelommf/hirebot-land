@@ -1,3 +1,6 @@
+### Find the website here
+https://hirebot-land.lovable.app/
+
 **HireBot Land** is a sleek, minimalistic website designed to simplify and streamline the hiring process. This repository contains all the source code and assets that power the site, offering:
 
 - **Responsive & Modern UI**: Ensures an intuitive user experience across devices.  
@@ -15,6 +18,3 @@ This project is built with .
 - React
 - shadcn-ui
 - Tailwind CSS
-
-### Find the website here
-https://hirebot-land.lovable.app/
